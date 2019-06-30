@@ -1,0 +1,64 @@
+--------------------------------------------------
+Soal 1: Newton Second Law
+--------------------------------------------------
+START
+
+    STORE "m" with any value
+    STORE "a" with any value
+    STORE "F" without any value
+
+    CALCULATE "m" times "a"
+    SET "F" value with calculation result
+
+    DISPLAY "F"
+
+END
+
+
+--------------------------------------------------
+Soal 2: Tahun Kabisat
+--------------------------------------------------
+START
+
+    STORE "year" with any value
+    STORE "status" without any value
+
+        IF ["year" divided by 4 returns 0 AND "year" divided by 100 NOT returns 0] OR ["year" divided by 4 returns 0 AND "year" divided by 100 returns 0 AND "year" divided by 400 returns 0]
+            DO SET "status" with value "Tahun Kabisat"
+            ELSE DO SET "status" with value "Bukan Tahun Kabisat"
+
+    DISPLAY ["year" merupakan "status"]
+
+END
+
+--------------------------------------------------
+Soal 3: Laundry Day
+--------------------------------------------------
+START
+
+    STORE "Baju" with 0
+
+    WHILE "Baju" < 20
+        ADD "Baju" by 1
+
+    DISPLAY "Mesin cuci dinyalakan!"
+
+END
+
+--------------------------------------------------
+Soal 4: Periksa Kuku
+--------------------------------------------------
+START
+
+    STORE "siswa" with 0
+    GET value from "status kuku".
+        SET "status kuku" with value 0 as "kuku pendek"
+        SET "status kuku" with value NOT 0 as "kuku panjang"
+
+    WHILE "siswa" < 40
+        IF "siswa" has "status kuku" = 0
+            DO DISPLAY [Guru memuji "siswa"]
+            ELSE DISPLAY [Guru menghukum "siswa"]
+        ADD "siswa" by 1
+
+END
