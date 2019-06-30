@@ -57,8 +57,8 @@ START
 
     WHILE "siswa" < 40
         IF "siswa" has "status kuku" = 0
-            DO DISPLAY [Guru memuji "siswa"]
-            ELSE DISPLAY [Guru menghukum "siswa"]
+            DO DISPLAY [Guru memuji "siswa" karena "status kuku"]
+            ELSE DISPLAY [Guru menghukum "siswa" karena "status kuku"]
         ADD "siswa" by 1
 
 END
