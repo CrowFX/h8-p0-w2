@@ -47,7 +47,7 @@ START
     STORE "year" with any value
     STORE "status" without any value
 
-        IF ["year" divided by 4 returns 0 AND "year" divided by 100 NOT returns 0] OR ["year" divided by 4 returns 0 AND "year" divided by 100 returns 0 AND "year" divided by 400 returns 0]
+        IF ["year" MODULUS by 4 returns 0 AND "year" MODULUS by 100 NOT returns 0] OR ["year" MODULUS by 4 returns 0 AND "year" MODULUS by 100 returns 0 AND "year" MODULUS by 400 returns 0]
             DO SET "status" with value "Tahun Kabisat"
             ELSE DO SET "status" with value "Bukan Tahun Kabisat"
 
