@@ -51,9 +51,9 @@ Soal 4: Periksa Kuku
 START
 
     STORE "siswa" with 0
-    GET value from "status kuku".
-        SET "status kuku" with value 0 as "kuku pendek"
-        SET "status kuku" with value NOT 0 as "kuku panjang"
+    GET value from "status kuku"
+        ALIAS "status kuku" with value 0 as "kuku pendek"
+        ALIAS "status kuku" with value NOT 0 as "kuku panjang"
 
     WHILE "siswa" < 40
         IF "siswa" has "status kuku" = 0
