@@ -1,0 +1,113 @@
+--------------------------------------------------
+Soal 1: Newton Second Law
+--------------------------------------------------
+
+ALGORITMA
+--------------------------------------------------
+
+1. Dapatkan mass
+2. Dapatkan percepatan
+3. Kalkulasikan m kali a
+
+
+
+PSEUDOCODE
+--------------------------------------------------
+
+START
+
+    STORE "m" with any value
+    STORE "a" with any value
+    STORE "F" without any value
+
+    CALCULATE "m" times "a"
+    SET "F" value with calculation result
+
+    DISPLAY "F"
+
+END
+
+
+--------------------------------------------------
+Soal 2: Tahun Kabisat
+--------------------------------------------------
+
+ALGORITMA
+--------------------------------------------------
+
+1. Dapatkan nilai Tahun
+2. Hitung tahun apakah habis dibagi empat namun tidak habis dibagi 100 ATAU tahun habis dibagi 4, 100, dan 400.
+
+
+PSEUDOCODE
+--------------------------------------------------
+
+START
+
+    STORE "year" with any value
+    STORE "status" without any value
+
+        IF ["year" divided by 4 returns 0 AND "year" divided by 100 NOT returns 0] OR ["year" divided by 4 returns 0 AND "year" divided by 100 returns 0 AND "year" divided by 400 returns 0]
+            DO SET "status" with value "Tahun Kabisat"
+            ELSE DO SET "status" with value "Bukan Tahun Kabisat"
+
+    DISPLAY ["year" merupakan "status"]
+
+END
+
+--------------------------------------------------
+Soal 3: Laundry Day
+--------------------------------------------------
+
+ALGORITMA
+--------------------------------------------------
+
+1. Buat basket dengan nilai 0
+2. Isi basket dengan baju 1 per 1.
+3. Setelah basket sampai 20 baju, nyalakan mesin.
+
+
+PSEUDOCODE
+--------------------------------------------------
+
+START
+
+    STORE "Baju" with 0
+
+    WHILE "Baju" < 20
+        ADD "Baju" by 1
+
+    DISPLAY "Mesin cuci dinyalakan!"
+
+END
+
+--------------------------------------------------
+Soal 4: Periksa Kuku
+--------------------------------------------------
+
+ALGORITMA
+--------------------------------------------------
+
+1. Dapatkan jumlah siswa
+2. Dapatkan data status kuku
+3. Cek siswa 1 per 1
+4. Cek kuku siswa
+5. Hukum siswa dengan kuku panjang, dan puji siswa dengan kuku pendek.
+
+PSEUDOCODE
+--------------------------------------------------
+
+START
+
+    STORE "siswa" with 0
+    GET value from "status kuku"
+        ALIAS "status kuku" with value 0 as "kuku pendek"
+        ALIAS "status kuku" with value NOT 0 as "kuku panjang"
+
+    WHILE "siswa" < 40
+        IF "siswa" has "status kuku" = 0
+            DO DISPLAY [Guru memuji "siswa" karena "status kuku"]
+            ELSE DISPLAY [Guru menghukum "siswa" karena "status kuku"]
+        ADD "siswa" by 1
+
+END
