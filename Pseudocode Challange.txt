@@ -1,6 +1,19 @@
 --------------------------------------------------
 Soal 1: Newton Second Law
 --------------------------------------------------
+
+ALGORITMA
+--------------------------------------------------
+
+1. Dapatkan mass
+2. Dapatkan percepatan
+3. Kalkulasikan m kali a
+
+
+
+PSEUDOCODE
+--------------------------------------------------
+
 START
 
     STORE "m" with any value
@@ -18,6 +31,17 @@ END
 --------------------------------------------------
 Soal 2: Tahun Kabisat
 --------------------------------------------------
+
+ALGORITMA
+--------------------------------------------------
+
+1. Dapatkan nilai Tahun
+2. Hitung tahun apakah habis dibagi empat namun tidak habis dibagi 100 ATAU tahun habis dibagi 4, 100, dan 400.
+
+
+PSEUDOCODE
+--------------------------------------------------
+
 START
 
     STORE "year" with any value
@@ -34,6 +58,18 @@ END
 --------------------------------------------------
 Soal 3: Laundry Day
 --------------------------------------------------
+
+ALGORITMA
+--------------------------------------------------
+
+1. Buat basket dengan nilai 0
+2. Isi basket dengan baju 1 per 1.
+3. Setelah basket sampai 20 baju, nyalakan mesin.
+
+
+PSEUDOCODE
+--------------------------------------------------
+
 START
 
     STORE "Baju" with 0
@@ -48,6 +84,19 @@ END
 --------------------------------------------------
 Soal 4: Periksa Kuku
 --------------------------------------------------
+
+ALGORITMA
+--------------------------------------------------
+
+1. Dapatkan jumlah siswa
+2. Dapatkan data status kuku
+3. Cek siswa 1 per 1
+4. Cek kuku siswa
+5. Hukum siswa dengan kuku panjang, dan puji siswa dengan kuku pendek.
+
+PSEUDOCODE
+--------------------------------------------------
+
 START
 
     STORE "siswa" with 0
