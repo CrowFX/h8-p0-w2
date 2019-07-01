@@ -2,9 +2,11 @@ var tanggal = 1;
 var bulan = 11;
 var tahun = 2200;
 
-if (tanggal < 1 || tanggal > 31) {tanggal = '[Tanggal tidak valid]';}
+if (tanggal < 1 || tanggal > 31) {
+    tanggal = '[Tanggal tidak valid]';
+}
 
-switch(bulan) {
+switch (bulan) {
     case 1:
         bulan = 'Januari';
         break;
@@ -46,6 +48,8 @@ switch(bulan) {
         break;
 }
 
-if (tahun < 1900 || tahun > 2200) {tahun = '[tahun tidak valid]';}
+if (tahun < 1900 || tahun > 2200) {
+    tahun = '[tahun tidak valid]';
+}
 
 console.log(tanggal + ' ' + bulan + ' ' + tahun);
