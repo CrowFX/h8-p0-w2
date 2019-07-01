@@ -36,7 +36,7 @@ ALGORITMA
 --------------------------------------------------
 
 1. Dapatkan nilai Tahun
-2. Hitung tahun apakah habis dibagi empat namun tidak habis dibagi 100 ATAU tahun habis dibagi 4, 100, dan 400.
+2. Hitung tahun apakah habis dibagi 4 namun tidak habis dibagi 100 ATAU tahun habis dibagi 4, 100, dan 400.
 
 
 PSEUDOCODE
