@@ -12,3 +12,4 @@
 8. Exercise 8: JavaScript Building Blocks: Codecademy JavaScript Course (Unit 3 - Functions)
 9. Exercise 9: Berlatih Penggunaan Functions
 10. Exercise 10: Bandingkan Angka
+11. Exercise 11: Balik Kata
