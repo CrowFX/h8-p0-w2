@@ -8,3 +8,4 @@
 4. Exercise 4: Mengenal penggunaan Conditional (Switch-Case) dalam JavaScript
 5. Exercise 5: Bermain dengan String di Javascript
 6. Exercise 6: Berlatih Perulangan di Javascript
+7. Exercise 7: 
