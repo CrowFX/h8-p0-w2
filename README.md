@@ -14,3 +14,4 @@
 10. Exercise 10: Bandingkan Angka
 11. Exercise 11: Balik Kata
 12. Exercise 12: Konversi Menit
+13. Exercise 13: X dan O
