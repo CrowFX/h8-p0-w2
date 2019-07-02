@@ -13,3 +13,4 @@
 9. Exercise 9: Berlatih Penggunaan Functions
 10. Exercise 10: Bandingkan Angka
 11. Exercise 11: Balik Kata
+12. Exercise 12: Konversi Menit
